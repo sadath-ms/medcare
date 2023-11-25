@@ -1,0 +1,60 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+
+# Virtual environment
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Editor-specific files
+*.swp
+*~
+
+# Dependency directories
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+dist/
+build/
+eggs/
+pip-wheel-metadata/
+
+# Database
+*.db
+*.sqlite
+
+# Alembic
+alembic/versions/
+alembic.ini
+
+# Test data
+tests/data/
+
+# Temporary files
+*.tmp
+*.log
+*.tmp.log
+
+# .env files
+.env
+
+# Compiled files
+*.pyc
+__pycache__/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
