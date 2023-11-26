@@ -37,8 +37,8 @@ pip-wheel-metadata/
 *.sqlite
 
 # Alembic
-alembic/versions/
-alembic.ini
+# alembic/versions/
+# alembic.ini
 
 # Test data
 tests/data/
