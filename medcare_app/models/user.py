@@ -1,21 +1,8 @@
-# from pydantic import BaseModel
-from sqlalchemy.ext.declarative import declarative_base
-
-Base = declarative_base()
-
-# class User(database.Base):
-#     id : int
-#     username : str
-#     email : str
-#     contact : str
-#     is_delete : bool
-
-#     class Config:
-#         orm_mode = True
 
 
 import datetime as datetime
 import sqlalchemy as sqlalchemy
+from medcare_app.dependencies.database import Base
 
 
 class UserModel(Base):
